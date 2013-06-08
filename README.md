@@ -28,9 +28,10 @@ unless the other packages also support invoking the original functions.
 
 ### Install and usage
 
-This is an ELPA [marmalade-package](http://marmalade-repo.org/). To
-install from elpa: `M-x install-package
-handlebars-sgml-mode`. Otherwise copy the `handlebars-sgml-mode.el` into your load-path.
+This is an ELPA package available from either [Marmalade](http://marmalade-repo.org/) or
+[MELPA](http://melpa.milkbox.net/). To
+install the package use: `M-x install-package
+handlebars-sgml-mode`. Otherwise copy `handlebars-sgml-mode.el` into your load-path.
 
 
 ```lisp
