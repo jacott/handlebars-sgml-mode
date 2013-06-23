@@ -5,7 +5,7 @@
 ;;
 ;; Author: Geoff Jacobsen <geoffjacobsen@gmail.com>
 ;; URL: http://github.com/jacott/handlebars-sgml-mode
-;; Version: 0.1.0
+;; Version: 0.1.1
 
 
 ;; This code is a modification of the sgml-mode package.
@@ -27,6 +27,17 @@
 ;; Software Foundation, 51 Franklin Street, Fifth Floor,
 ;; Boston, MA 02110-1301, USA.
 ;;
+;; Installation:
+;;
+;; (require 'handlebars-sgml-mode)
+
+;; ;; decide how to use handlebars-html-mode
+;; ;; (handlebars-use-mode 'global) ;; always use handlebars-minor-mode
+;; (handlebars-use-mode 'off)       ;; Never use handlebars-mode (the default)
+;; ;; (handlebars-use-mode 'minor)  ;; Only use if in 'handlebars-sgml-minor-mode
+
+
+
 
 (eval-when-compile
   (require 'cl))
