@@ -29,7 +29,7 @@ unless the other packages also support invoking the original functions.
 ### Install and usage
 
 This is an ELPA package available from either [Marmalade](http://marmalade-repo.org/) or
-[MELPA](http://melpa.milkbox.net/). To
+[MELPA](https://melpa.org/). To
 install the package use: `M-x install-package
 handlebars-sgml-mode`. Otherwise copy `handlebars-sgml-mode.el` into your load-path.
 
