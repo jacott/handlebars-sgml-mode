@@ -72,7 +72,7 @@
   "Syntactic keywords for `sgml-mode'.")
 
 (define-minor-mode handlebars-sgml-minor-mode
-  "Handlebars sgml minor mode")
+  "Handlebars sgml minor mode" nil " Hbs")
 
 (defun handlebars-use-mode (mode)
   "Switch mode to determine how to override sgml-mode.
